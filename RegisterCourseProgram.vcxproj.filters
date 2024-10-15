@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\common">
+      <UniqueIdentifier>{86dcb7e9-a699-4a68-a684-a99b880866e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\course">
+      <UniqueIdentifier>{2ad8f861-41fa-4e96-8247-139961e7b100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\user">
+      <UniqueIdentifier>{7d0fb36f-bfeb-4dfe-8a2a-3ef8850e8e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\util">
+      <UniqueIdentifier>{51c0e78e-0634-4f47-b04b-bbc230e1640a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\course\entity">
+      <UniqueIdentifier>{cd0675f1-4c35-42f2-acb2-41d1778a923f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\course\controller">
+      <UniqueIdentifier>{612cfadf-0d2c-430d-9654-e711b3f8afbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\course\repository">
+      <UniqueIdentifier>{d72f7ca2-3180-41d9-8d8a-5ea541052e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\course\service">
+      <UniqueIdentifier>{67efef0d-edcc-4c92-b48b-f05adc428e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\course\view">
+      <UniqueIdentifier>{76787282-cf62-4d27-b039-090a48962377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\user\entity">
+      <UniqueIdentifier>{f1d4c616-2fa0-470e-acc4-d2a725e9291d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\user\controller">
+      <UniqueIdentifier>{8e30de8c-a9a2-4e43-abce-532c258474dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\user\view">
+      <UniqueIdentifier>{de3d765e-21ff-4593-8e02-64477516c864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\user\service">
+      <UniqueIdentifier>{64ea28cc-0672-4992-9912-70f94c0863db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\user\repository">
+      <UniqueIdentifier>{2c74459f-95f9-4088-a30d-fecbf7c2956b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\course">
+      <UniqueIdentifier>{57078b72-d6ea-48db-8910-6b8d1125ef11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\course\entity">
+      <UniqueIdentifier>{944eb261-50ab-4046-9645-5d710db66dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\user">
+      <UniqueIdentifier>{62bc1bed-3eb1-4c83-9b63-bdc6553e056c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>헤더 파일\course\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginController.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Course.cpp">
+      <Filter>소스 파일\course\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
